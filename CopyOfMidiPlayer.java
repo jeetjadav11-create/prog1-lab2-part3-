@@ -284,12 +284,24 @@ public class CopyOfMidiPlayer
     private MidiPlayer player;
 
     
-    public TuneCreator()
-    {
-        player = new MidiPlayer();
+    
+        public void CreateAndPlay()
+{
+   
+    SimpleTune tune = new SimpleTune();
+
+
+    tune.addNote("C4", 1); 
+    tune.addNote("E4", 1);
+    tune.addNote("G4", 2);
+
+    
+    player.playTune(tune);
+}
+
     }
 }
 
     
     
-}
+

@@ -15,7 +15,7 @@ It is discussed in chapter 3.
 45. external; tune.getNotes(), note.getNoteName(), note.getDuration(), sequence.create
 inernal ;noteNameToMIDIValue(...), addNoteToTrack(...), playTrack(sequence)
 
-46.
+58. it went inside addNote, more lines showed, noteName showed then disappeared, then came back out. i dont really understand what is happening 
 
 
 
